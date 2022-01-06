@@ -4,6 +4,8 @@
     font-family: Roboto;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 
 .header {
@@ -14,6 +16,7 @@
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 500;
 }
 
 .links {
@@ -28,6 +31,40 @@
     display: flex;
 }
 
-.right {
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
     display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.left {
+    max-width: 450px;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 3px 25px;
+    border-radius: 6px;
 }
